@@ -109,7 +109,6 @@ for entry in scan_dir:
 
             # move the file to new folder
             os.rename(entry.path, new_path)
-                # Finds video filea to move to folder
         
         # Finds video files to move to folde
         elif extension_finder[1] == ".docx":
